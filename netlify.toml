@@ -8,15 +8,15 @@
 
 # Redirect rules
 [[redirects]]
-  # Redirect root to g9.html
+  # Redirect root to group9(1).html
   from = "/"
-  to = "/g9.html"
+  to = "/group9(1).html"
   status = 200
 
 [[redirects]]
-  # Handle 404s by showing g9.html
+  # Handle 404s by showing group9(1).html
   from = "/*"
-  to = "/g9.html"
+  to = "/group9(1).html"
   status = 404
 
 # Headers for security and performance
